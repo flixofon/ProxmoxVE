@@ -1,3 +1,4 @@
+Changes: Upgraded package versions
 ProxmoxVE API Client
 ====================
 
@@ -22,7 +23,7 @@ Recommended installation is using [Composer], if you do not have [Composer] what
 In the root of your project execute the following:
 
 ```sh
-$ composer require zzantares/proxmoxve ~4.0
+$ composer require flixofon/proxmoxve ~5.0-dev
 ```
 
 Or add this to your `composer.json` file:
@@ -30,7 +31,7 @@ Or add this to your `composer.json` file:
 ```json
 {
     "require": {
-        "zzantares/proxmoxve": "~4.0"
+        "flixofon/proxmoxve": "~5.0-dev"
     }
 }
 ```
